@@ -2,8 +2,8 @@ FROM openjdk:jre-alpine
 
 MAINTAINER Jia Tian <klbjlabs@gmail.com>
 
-ENV ES_VERSION=6.1.3 \
-    KIBANA_VERSION=6.1.3
+ENV ES_VERSION=6.3.1 \
+    KIBANA_VERSION=6.3.1
 
 RUN apk add --quiet --no-progress --no-cache nodejs wget net-tools vim bash curl su-exec \
     && adduser -D elasticsearch
